@@ -1,0 +1,816 @@
+dw@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(47,47,47,1.00);
+    font-weight: 400;
+    background-color: #1F355D;
+}
+
+
+
+h1 {
+    font-weight: 800;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+    color: rgba(255,255,255,1.00);
+    text-shadow: 0px 0px 0px;
+    text-align: left;
+    font-style: normal;
+}
+.Th1 {
+    font-weight: 800;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    line-height: 50px;
+    color: rgba(255,255,255,1.00);
+    text-shadow: 0px 0px 0px;
+    text-align: left;
+    font-style: normal;
+    width: 52vw;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgba(255,255,255,1.00);
+	margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/IMG_0040.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.textos {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 6px;
+}
+.boton {
+    margin-top: 20px;
+}
+
+
+.Quien {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imgs/DSC_0711.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: static;
+}
+.que {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imgs/DSC_0246.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boton a {
+    height: 40px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Poppins', sans-serif;
+    border-radius: 4px;
+    border: medium solid #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+}
+.boton a:hover  {
+    height: 40px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: medium;
+    text-shadow: 0px 0px 15px;
+    background-color: rgba(0,0,0,0.50);
+}
+.btn-ant a {
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: montserrat;
+    border-radius: 4px;
+    border: medium solid #FBFBFB;
+    background-color: rgba(0,0,0,0.00);
+    text-decoration: none;
+    float: left;
+    font-style: normal;
+}
+.btn-ant a:hover  {
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: montserrat;
+    border-radius: 4px;
+    border: medium solid #FFFFFF;
+    background-color: rgba(0,0,0,0.50);
+    text-decoration: none;
+    text-shadow: 0px 0px 15px;
+    font-style: normal;
+}
+.btn-sig a {
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: montserrat;
+    border-radius: 4px;
+    border: medium solid #FBFBFB;
+    background-color: rgba(0,0,0,0.00);
+    text-decoration: none;
+    float: left;
+    margin-left: 16px;
+    font-style: normal;
+}
+header {
+    width: 90%;
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 25px;
+}
+
+
+
+.balazo {
+    width: 100%;
+    padding-left: 32px;
+    color: undefined;
+    position: relative;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    bottom: -68vh;
+    background-color: rgba(31,53,93,0.73);
+    height: 167px;
+}
+.balazo-01 {
+    width: 100%;
+    padding-left: 32px;
+    color: rgba(255,255,255,1.00);
+    position: relative;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    bottom: -68vh;
+    background-color: rgba(31,53,93,0.48);
+    height: 190px;
+}
+.logo {
+    width: 100px;
+    height: 65px;
+    position: absolute;
+    right: 32px;
+    top: 13px;
+    background-image: url(imgs/Vitronik2%20blanco.png);
+    background-repeat: no-repeat;
+    background-size: 100px auto;
+}
+.menu {
+    position: absolute;
+    width: 38vh;
+    background-color: rgba(31,53,93,0.75);
+    margin-top: 32px;
+    font-family: 'Poppins', sans-serif;
+    ;
+    ;
+    margin-left: -100%;
+    transition: all 0.5s;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+
+.menu li {
+    border-top: 2px solid rgba(255,255,255,0.66);
+    height: 50px;
+}
+#btn-menu:checked ~ .menu {
+    margin-left: -2px;
+}
+
+.menu li a {
+    display: block;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(255,255,255,1.00);
+    font-weight: 700;
+    text-decoration: none;
+}
+.menu li a:hover  {
+    display: block;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(31,53,93,1.00);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: large;
+    transition: 0.2s;
+}
+
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.balazo p {
+    color: #E9EBF0;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+.contenedor {
+    position: relative;
+}
+footer {
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    width: 100%;
+    height: 100vh;
+}
+footer h1 {
+    font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+footer ul {
+    margin-top: 32px;
+    color: #FFFFFF;
+    font-family: "Montserrat Medium", "Montserrat SemiBold";
+    font-size: medium;
+}
+footer li {
+    height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: montserrat;
+}
+.col-01 {
+    width: 100%;
+    float: none;
+
+    margin-top: 3
+'%
+'%;
+    margin-top: 30%;
+}
+.col-02 {
+    width: 100%;
+    float: none;
+}
+
+.historia {
+    width: 100%;
+    height: 100vh;
+    position: static;
+
+}
+.historias {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    z-index: -1;
+    clip-path: polygon(60% 0, 100% 0%, 100% 100%, 14% 100%);
+
+
+}
+.video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+}
+
+.redes {
+    width: 50px;
+    height: 50px;
+    background-size: 50px auto;
+    margin-top: 32px;
+    display: inline;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+#btn-menu {
+    display: none;
+}
+header label {
+    cursor: pointer;
+}
+.Num {
+    text-decoration: none;
+}
+.caja {
+    width: 316px;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    height: 124px;
+    bottom: -8vh;
+    margin-top: 0vh;
+    margin-right: 0vh;
+    margin-bottom: 4vh;
+    margin-left: 0vh;
+    left: 3vw;
+}
+.animado {
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.mostrarArriba {
+    animation: mostrarArriba 1.5s;
+}
+#inicio .intro {
+}
+.intro {
+    height: 65vw;
+
+
+
+
+}
+
+
+
+@keyframes mostrarArriba{
+    0% {
+        transform: translateX(-60px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(imgs/DSC_0179.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.contact .content p
+{    
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background-color: rgba(31,53,93,0.52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #FFF;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3
+{
+    font-weight: 900;
+    color: #0090A3;
+    font-size: large;
+}
+
+.contactForm
+{
+    width: 40%;
+    padding: 40px;
+    background: #ffffff;
+}
+
+.contactForm h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    color: rgba(0,0,0,1.00);
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    color: rgba(0,0,0,1.00);
+}
+
+.contactForm .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]
+{
+   width: 100px;
+   background: #00bcd4;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   font-size: 18px;
+}
+
+@media (max-width: 1024px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container
+    {
+        flex-direction: column;
+    }
+    .container .contactInfo
+    {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm
+    {
+        width: 100%;
+    }
+}
+@media (min-width:768px){
+footer {
+    height: 100%;
+}
+footer h1 {
+    display: block;
+}
+
+.col-01 {
+    width: 30%;
+    margin-top: 0px;
+    float: left;
+}
+.historia {
+    height: 87vh;
+}
+
+.col-02 {
+    width: 25%;
+    margin-top: 0px;
+    float: left;
+    margin-left: 56px;
+}
+.col-02 {
+    width: 25%;
+    margin-top: 0px;
+    float: left;
+    margin-left: 56px;
+}
+.balazo {
+    width: 59%;
+}
+.textos {
+
+}
+.boton {
+    margin-top: -5px;
+}
+
+
+.balazo-01 {
+    width: 56%;
+}
+
+.balazo p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.btn-ant {
+    margin-top: -25px;
+}
+.caja {
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1024px){
+.logo {
+    left: 32px;
+}
+.menu {
+    position: absolute;
+    background-color: rgba(255,0,4,0.00);
+    width: 80vmax;
+    margin-top: 0px;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    margin-left: 5%;
+}
+.balazo {
+    width: 59%;
+}
+
+.menu li a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+header label {
+    display: none;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu li {
+    border-top-width: 0px;
+    border-top-style: none;
+}
+.textos {
+}
+.btn-ant {
+    margin-top: -16px;
+}
+
+.boton {
+    margin-top: 2px;
+}
+.Num {
+}
+.caja {
+    width: 371px;
+}
+.slider {
+    -webkit-filter: blur
+: 10px;
+
+}
+.historia {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.btn-sig a:hover  {
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: montserrat;
+    border-radius: 4px;
+    border: medium solid #FFFFFF;
+    background-color: rgba(0,0,0,0.50);
+    text-decoration: none;
+    text-shadow: 0px 0px 16px;
+    font-style: normal;
+}
+
+@media (min-width: 750px){
+.textos {
+    margin-bottom: 29px;
+}
+.historia {
+    height: 87vh;
+}
+
+
+}
+.img {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+.titulo {
+    font-weight: 600;
+    font-family: montserrat;
+    font-style: normal;
+    text-transform: uppercase;
+}
