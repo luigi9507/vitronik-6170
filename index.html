@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<title>Vitronik</title>
+<link href="css/dsgn.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>
+var __adobewebfontsappname__="dreamweaver"
+</script>
+	
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="contenedor" id="inicio">
+  <header>
+    <div class="logo">&nbsp;</div>
+    <input name="checkbox" type="checkbox" id="btn-menu">
+    <label for="btn-menu"><img src="imgs/ham-ico.png" width="50" height="36" alt=""/>&nbsp; </label>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html" data-text= "Inicio">Inicio</a></li>
+        <li><a href="proyectos.html" data-text= "Proyectos">Proyectos&nbsp;</a></li>
+        <li><a href="Quienes somos.html" data-text= "¿Quiénes somos?">¿Quiénes somos?&nbsp;</a></li>
+        <li><a href="patrocinadores.html" data-text= "Patrocinadores">Patrocinadores&nbsp;</a></li>
+        <li><a href="Contacto.html" data-text= "Contactos">Contacto</a></li>
+      </ul>
+    </nav>
+&nbsp;</header>
+  <div class="intro slider"> </div>
+<div class="historias"></div>
+<div class="Quien" id="modulo-02">
+    <div class="balazo animado">
+      <h1>Nuestra marca:&nbsp;</h1>
+      <p class="textos">Se basa en una palabra: UNIDAD. Adaptamos cada detalle de nuestra imagen para construir un sentido de pertenencia y pasión por ayudar a los demás mediante la creación de estándares de marca.</p>
+</div>
+  </div>
+  <div class="que" id="modulo-03">
+    <div class="balazo animado">
+      <h1>NUESTRA MISIÓN&nbsp;&nbsp;</h1>
+      <p class="textos">Fomentar líderes, creadores de cambios y carácter a través de la ciencia, tecnología y propósito.&nbsp;</p>
+</div>
+  </div>
+<section>
+	<div class="container1">
+    <div class="box">
+        <div class="content">
+            <img src="imgs/1.png" alt="">
+            <p>Lávate las manos con frecuencia. Usa agua y jabón o un desinfectante de manos a base de alcohol.&nbsp;</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+            <img src="imgs/2.png" alt="">
+            <p>Al toser o estornudar cúbrase la boca y la nariz con el codo flexionado o con un pañuelo.&nbsp;</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+            <img src="imgs/3.png" alt="">
+            <p>Permanece en casa en autoaislamiento.&nbsp;</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+            <img src="imgs/4.png" alt="">
+            <p>Si tiene fiebre, tos y dificultad para respirar busque atención médica.</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+            <img src="imgs/5.png" alt="">
+            <p>Convierte el uso de la mascarilla en una parte normal de su interacción con otras personas y asegúrate de aprender a usarla correctamente.&nbsp;&nbsp;</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+            <img src="imgs/6.png" alt="">
+            <p>Limpie y desinfecte frecuentemente las superficies, en particular las que se tocan con regularidad.</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+            <img src="imgs/7.png" alt="">
+            <p>Guarde al menos 2 m de distancia entre usted y otras personas.</p>
+        </div>
+    </div>
+</div>
+</section>
+  <footer id="contacto">
+    <div class="col-01">
+      <h1>Dirección&nbsp; &nbsp;</h1>
+      <ul>
+        <li>Universidad Tecmilenio&nbsp;</li>
+        <li>San Lus Potosí&nbsp;&nbsp;</li>
+        <li>&nbsp;© Copyright 2020</li>
+      </ul>
+    </div>
+    <div class="col-02">
+      <h1>Contacto&nbsp; &nbsp;</h1>
+      <ul>
+        <li>vitronik6170&nbsp;</li>
+        <li><a href="tel:+5214446535299" class="Num">+52 444 653 5299&nbsp; &nbsp;&nbsp;</a></li>
+        <li><a href="mailto:6170vitronik@gmail.com" class="Num">6170vitronik@gmail.com</a></li>
+      </ul>
+    </div>
+    <div class="col-02">
+      <h1>redes sociales&nbsp; &nbsp;</h1>
+      <div class="redes"><a href="https://facebook.com/443159949207585/" target="_blank"><img src="imgs/fb.png" alt="" width="45" height="46" class="redes"/></a>&nbsp;</div>
+      <div class="redes"><a href="https://instagram.com/vitronik6170" target="_blank"><img src="imgs/in.png" alt="" width="45" height="46" class="redes"/></a>&nbsp;</div>
+    </div>
+    &nbsp;</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript"> 
+	$(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    $('.slider').css({
+        filter: "blur(" + (scroll/200) + "px)"
+    })
+})
+</script>
+<script src="animar.js"></script>
+</body>
+</html>
+
