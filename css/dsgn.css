@@ -406,7 +406,7 @@ header label {
 #inicio .intro {
 }
 .intro {
-    height: 100vh;
+    height: auto;
 
 
 
