@@ -85,7 +85,7 @@ h1 {
 
 .slider {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-image: url("../imgs/IMG_0040.jpg");
     background-position: center;
     background-size: cover;
@@ -406,7 +406,7 @@ header label {
 #inicio .intro {
 }
 .intro {
-    height: auto;
+    height: 100vh;
 
 
 
